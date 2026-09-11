@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imóveis | J. Audisio Imóveis</title>
+    <link rel="stylesheet" href="styles.css?v=23">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="sobre-page">
+
+    <!-- Efeitos Flutuantes -->
+    <div class="glow-orb orb-1" style="background: rgba(11, 61, 145, 0.4);"></div>
+    <div class="glow-orb orb-2" style="background: rgba(212, 175, 55, 0.2);"></div>
+
+    <header>
+        <div class="header-container">
+            <div class="brand">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <h1>J. Audisio Imóveis</h1>
+                    <span>CRECI/PB 944-J</span>
+                </a>
+            </div>
+            <nav>
+                <a href="index.html"><i data-lucide="home" style="width: 16px; margin-bottom: -3px; display: inline-block;"></i> Início</a>
+                <a href="imoveis.html" class="active">Categorias</a>
+                <a href="venda.html">À Venda</a>
+                <a href="locacao.html">Locação</a>
+                <a href="terrenos.html">Terrenos</a>
+                <a href="contato.html" class="btn-primary">Fale Conosco</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="sobre-main">
+        <section id="imoveis-list" class="properties-section" style="padding-top: 4rem; border-top: none; background: transparent;">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 style="font-size: 3.5rem;">Nossos Imóveis</h2>
+                    <p>Conheça nossas melhores opções de compra, locação e terrenos.</p>
+                </div>
+                
+                <div class="properties-grid">
+                    
+                    <!-- Campo de Venda -->
+                    <div id="venda" class="property-card fade-up">
+                        <div class="property-image">
+                            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Imóveis à Venda">
+                            <div class="property-badge">Venda</div>
+                        </div>
+                        <div class="property-content">
+                            <h3>Casas e Apartamentos</h3>
+                            <p class="property-location"><i data-lucide="map-pin"></i> Diversas Opções</p>
+                            
+                            <div style="color: #94a3b8; margin-bottom: 2rem; line-height: 1.6;">
+                                <p>Encontre a casa dos seus sonhos com a J. Audísio Imóveis. Temos um portfólio selecionado de imóveis para compra com os melhores preços e condições do mercado.</p>
+                            </div>
+
+                            <div class="property-actions" style="justify-content: flex-start;">
+                                <a href="venda.html" class="btn-primary">
+                                    <i data-lucide="plus-circle"></i> Ver mais
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Campo de Locação -->
+                    <div id="locacao" class="property-card fade-up" style="animation-delay: 0.2s;">
+                        <div class="property-image">
+                            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80" alt="Imóveis para Locação">
+                            <div class="property-badge" style="background: var(--secondary-blue); color: white;">Locação</div>
+                        </div>
+                        <div class="property-content">
+                            <h3>Opções para Locação</h3>
+                            <p class="property-location"><i data-lucide="map-pin"></i> Cajazeiras e Região</p>
+                            
+                            <div style="color: #94a3b8; margin-bottom: 2rem; line-height: 1.6;">
+                                <p>Dispomos de excelentes opções de casas, apartamentos e pontos comerciais para aluguel. Encontre o lugar perfeito que cabe no seu orçamento, com a garantia e segurança que só a J. Audísio Imóveis oferece.</p>
+                            </div>
+
+                            <div class="property-actions" style="justify-content: flex-start;">
+                                <a href="locacao.html" class="btn-primary">
+                                    <i data-lucide="plus-circle"></i> Ver mais
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Campo de Terrenos -->
+                    <div id="terrenos" class="property-card fade-up" style="animation-delay: 0.4s;">
+                        <div class="property-image">
+                            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80" alt="Terrenos">
+                            <div class="property-badge" style="background: #25d366; color: white;">Terrenos</div>
+                        </div>
+                        <div class="property-content">
+                            <h3>Lotes e Terrenos</h3>
+                            <p class="property-location"><i data-lucide="map-pin"></i> Diversas Localizações</p>
+                            
+                            <div style="color: #94a3b8; margin-bottom: 2rem; line-height: 1.6;">
+                                <p>Oportunidades incríveis para você construir a casa dos seus sonhos ou investir com segurança. Temos terrenos em loteamentos bem localizados, com infraestrutura completa e facilidade de pagamento.</p>
+                            </div>
+
+                            <div class="property-actions" style="justify-content: flex-start;">
+                                <a href="terrenos.html" class="btn-primary">
+                                    <i data-lucide="plus-circle"></i> Ver mais
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 J. Audisio Imóveis. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
